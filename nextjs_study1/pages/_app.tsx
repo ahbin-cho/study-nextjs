@@ -8,11 +8,11 @@ function MyApp({ Component, pageProps }: AppProps ) {
         <>
             <Head>
                 <meta charSet="utf-8" />
-                <meta name="description" content="자신의 마음을 적는 공간" />
+                <meta name="description" content="개발새발" />
                 <title>개발새발</title>
             </Head>
             <AppLayout>
-                <Component></Component>
+                <Component {...pageProps}></Component>
             </AppLayout>
         </>
         

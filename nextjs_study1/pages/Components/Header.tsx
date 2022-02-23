@@ -13,7 +13,7 @@ const headerStyle = css`
         font-size: 8rem;
         font-family: 'Noto Sans KR';
     }
-    .menus {
+    .nav {
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
         display: flex;
@@ -36,6 +36,7 @@ const headerStyle = css`
         height: 3rem;
         
     }
+    
 `;
 
 function Header( props: { link: string }) {
@@ -50,7 +51,7 @@ function Header( props: { link: string }) {
                     </Link>
                 </div>
            
-                <div className='menus'>
+                <div className='nav'>
                     <div className='menu'>
                         <Link href='/news'>
                             <a className="news">회사소식공유</a>
