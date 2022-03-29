@@ -43,10 +43,10 @@
         // "jsx-a11y/interactive-supports-focus": 0, // 대화식 역할 및 상호 작용 핸들러 (마우스 또는 키 누름)가있는 요소는 초점을 맞출 수 있어야합니다.
         // "react/prefer-stateless-function": 0,
         // "react/jsx-curly-spacing": [2, "always"],
-        // "react/jsx-closing-bracket-location": 0, // JSX에서 닫는 괄호 위치 확인
+        "react/jsx-closing-bracket-location": 0, // JSX에서 닫는 괄호 위치 확인
         // "react/sort-comp": 0, // 컴포넌트 메소드 순서 시행 (반응 / 정렬-콤포지션)
-        // "react/jsx-indent": ["error", 4], // JSX 들여 쓰기 확인
-        // "react/jsx-indent-props": ["error", 4], // JSX에서 props 들여 쓰기 확인 
+        "react/jsx-indent": ["error", 4], // JSX 들여 쓰기 확인
+        "react/jsx-indent-props": ["error", 4], // JSX에서 props 들여 쓰기 확인 
         // "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }], // JSX를 포함 할 수있는 파일 확장자 제한
         // "react/prop-types": [2, { "ignore": ["children", "navigation", "style", "store"] }],
         // "react/prop-types": [0, { "ignore": ["children", "navigation", "style", "store"] }],
